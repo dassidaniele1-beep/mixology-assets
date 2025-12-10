@@ -1,0 +1,444 @@
+<html lang="en" class="scroll-smooth"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Afro Mixology | Ancestral Spirits, Future Pours</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600&amp;family=Inter:wght@300;400;500&amp;display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --color-bg: #081c05;
+            --color-accent: #c14d00;
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--color-bg);
+            color: #f5f5f5;
+            overflow-x: hidden;
+        }
+        h1, h2, h3, h4, h5, h6, .display-font {
+            font-family: 'Space Grotesk', sans-serif;
+        }
+        .text-accent {
+            color: var(--color-accent);
+        }
+        .bg-accent {
+            background-color: var(--color-accent);
+        }
+        .glass {
+            background: rgba(255, 255, 255, 0.03);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+        .glass-card:hover {
+            background: rgba(255, 255, 255, 0.06);
+            border-color: var(--color-accent);
+        }
+        .no-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .no-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+        @keyframes marquee-left {
+            from { transform: translateX(0); }
+            to { transform: translateX(-50%); }
+        }
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+        }
+        .animate-float {
+            animation: float 6s ease-in-out infinite;
+        }
+    </style>
+<link id="all-fonts-link-font-geist" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600;700&amp;display=swap"><style id="all-fonts-style-font-geist">.font-geist { font-family: 'Geist', sans-serif !important; }</style><link id="all-fonts-link-font-roboto" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&amp;display=swap"><style id="all-fonts-style-font-roboto">.font-roboto { font-family: 'Roboto', sans-serif !important; }</style><link id="all-fonts-link-font-montserrat" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&amp;display=swap"><style id="all-fonts-style-font-montserrat">.font-montserrat { font-family: 'Montserrat', sans-serif !important; }</style><link id="all-fonts-link-font-poppins" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&amp;display=swap"><style id="all-fonts-style-font-poppins">.font-poppins { font-family: 'Poppins', sans-serif !important; }</style><link id="all-fonts-link-font-playfair" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;900&amp;display=swap"><style id="all-fonts-style-font-playfair">.font-playfair { font-family: 'Playfair Display', serif !important; }</style><link id="all-fonts-link-font-instrument-serif" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:wght@400;500;600;700&amp;display=swap"><style id="all-fonts-style-font-instrument-serif">.font-instrument-serif { font-family: 'Instrument Serif', serif !important; }</style><link id="all-fonts-link-font-merriweather" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&amp;display=swap"><style id="all-fonts-style-font-merriweather">.font-merriweather { font-family: 'Merriweather', serif !important; }</style><link id="all-fonts-link-font-bricolage" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@300;400;500;600;700&amp;display=swap"><style id="all-fonts-style-font-bricolage">.font-bricolage { font-family: 'Bricolage Grotesque', sans-serif !important; }</style><link id="all-fonts-link-font-jakarta" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&amp;display=swap"><style id="all-fonts-style-font-jakarta">.font-jakarta { font-family: 'Plus Jakarta Sans', sans-serif !important; }</style><link id="all-fonts-link-font-manrope" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&amp;display=swap"><style id="all-fonts-style-font-manrope">.font-manrope { font-family: 'Manrope', sans-serif !important; }</style><link id="all-fonts-link-font-space-grotesk" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&amp;display=swap"><style id="all-fonts-style-font-space-grotesk">.font-space-grotesk { font-family: 'Space Grotesk', sans-serif !important; }</style><link id="all-fonts-link-font-work-sans" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800&amp;display=swap"><style id="all-fonts-style-font-work-sans">.font-work-sans { font-family: 'Work Sans', sans-serif !important; }</style><link id="all-fonts-link-font-pt-serif" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&amp;display=swap"><style id="all-fonts-style-font-pt-serif">.font-pt-serif { font-family: 'PT Serif', serif !important; }</style><link id="all-fonts-link-font-geist-mono" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@300;400;500;600;700&amp;display=swap"><style id="all-fonts-style-font-geist-mono">.font-geist-mono { font-family: 'Geist Mono', monospace !important; }</style><link id="all-fonts-link-font-space-mono" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&amp;display=swap"><style id="all-fonts-style-font-space-mono">.font-space-mono { font-family: 'Space Mono', monospace !important; }</style><link id="all-fonts-link-font-quicksand" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&amp;display=swap"><style id="all-fonts-style-font-quicksand">.font-quicksand { font-family: 'Quicksand', sans-serif !important; }</style><link id="all-fonts-link-font-nunito" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800&amp;display=swap"><style id="all-fonts-style-font-nunito">.font-nunito { font-family: 'Nunito', sans-serif !important; }</style></head>
+<body class="antialiased selection:bg-[#c14d00] selection:text-white">
+
+    <!-- Floating Navbar -->
+    <nav class="fixed top-4 left-0 right-0 z-50 mx-auto max-w-6xl px-4 sm:px-6">
+        <div class="glass flex shadow-black/40 transition-all duration-300 rounded-full pt-4 pr-6 pb-4 pl-6 shadow-2xl items-center justify-between">
+    
+            <a href="#" class="flex items-center gap-3">
+                <img src="https://raw.githubusercontent.com/dassidaniele1-beep/mixology-assets/33678d1342a004cde09aeff64c6d1925ec78c323/Untitled%20design.png" alt="Afro Mixology Logo" class="h-12 w-auto rounded-lg">
+                <span class="text-xl font-semibold text-white tracking-tighter">
+                    VOLATIL
+                </span>
+            </a>
+                
+            
+            
+            <div class="hidden md:flex gap-8 text-sm font-medium text-gray-300 gap-x-8 gap-y-8 items-center">
+                <a href="#collection" class="hover:text-white transition-colors">Collection</a>
+                <a href="/#services" class="hover:text-white transition-colors">Services</a>
+                <a href="/#contact" class="hover:text-white transition-colors">Contactez-moi</a>
+            </div>
+
+        <a href="/#contact" class="hover:bg-[#a03d00] uppercase transition-all duration-300 transform hover:scale-105 flex gap-2 gap-x-2 gap-y-2 items-center text-xs font-semibold text-white tracking-wide bg-orange-700 rounded-full pt-2.5 pr-6 pb-2.5 pl-6">Book me</a>
+        </div>
+    </nav>
+
+    <!-- Split Hero Section -->
+    <header class="relative min-h-screen grid lg:grid-cols-12 pt-24 lg:pt-0 overflow-hidden">
+        <!-- Text Content -->
+        <div class="lg:col-span-7 flex flex-col lg:px-16 z-10 pt-20 pr-6 pb-20 pl-6 relative justify-center">
+            <div class="absolute top-0 left-0 w-64 h-64 bg-accent/20 rounded-full blur-[100px] -translate-x-1/2 -translate-y-1/2"></div>
+            
+            <div class="animate-float space-y-8">
+                <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-white/10 bg-white/5 w-fit">
+                    <span class="w-2 h-2 rounded-full bg-accent animate-pulse"></span>
+                    <span class="text-xs font-medium tracking-wide uppercase text-gray-300">Est. 2025 • Paris / Douala / Everywhere </span>
+                </div>
+                
+                <h1 class="sm:text-7xl lg:text-8xl leading-[0.95] text-5xl font-semibold tracking-tighter">
+                    Ancestral Spirits,<br>
+                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-500">Future Pours.</span>
+                </h1>
+                
+                <p class="leading-relaxed text-lg font-light text-gray-400 max-w-lg">L'alchimie afro-futuriste : réinventer les classiques du cocktail avec l'âme et les saveurs d'Afrique.</p>
+
+                <div class="flex flex-wrap items-center gap-4 pt-4">
+                    <button class="uppercase hover:bg-gray-200 transition-colors text-sm font-semibold text-[#081c05] tracking-wide bg-white rounded-full pt-4 pr-8 pb-4 pl-8">Voir Menu</button>
+                    <button class="uppercase hover:bg-white/5 transition-colors flex cursor-pointer text-sm font-semibold text-white tracking-wide border-white/20 border rounded-full pt-4 pr-8 pb-4 pl-8 gap-x-2 gap-y-2 items-center" onclick="window.location.href='https://www.instagram.com/volatilmixology?utm_source=ig_web_button_share_sheet&amp;igsh=ZDNlZDc0MzIxNw=='" role="button">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" data-lucide="play-circle" class="lucide lucide-play-circle w-5 h-5 text-accent"><path d="M9 9.003a1 1 0 0 1 1.517-.859l4.997 2.997a1 1 0 0 1 0 1.718l-4.997 2.997A1 1 0 0 1 9 14.996z"></path><circle cx="12" cy="12" r="10"></circle></svg>
+                        Watch The Craft
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Visual Side -->
+        <div class="lg:col-span-5 relative min-h-[50vh] lg:min-h-screen">
+            <div class="absolute inset-0 bg-gradient-to-t from-[#081c05] via-transparent to-transparent z-10 lg:bg-gradient-to-l"></div>
+<img src="https://raw.githubusercontent.com/dassidaniele1-beep/mixology-assets/1e503e5d3e054e35a5432ec712a963a464b2e7ed/IMG_1509.jpg" alt="Futuristic Cocktail" class="w-full h-full object-cover object-center opacity-90">
+            <!-- Floating Glass Card Overlay -->
+            <div class="absolute bottom-10 left-6 right-6 lg:left-[-3rem] lg:bottom-24 z-20">
+                <div class="glass p-6 rounded-2xl max-w-xs backdrop-blur-xl">
+                    <div class="flex mb-4 items-start justify-between">
+                        <div class="">
+                            <h3 class="font-semibold text-lg tracking-tight">The Black Panther</h3>
+                            <p class="text-xs text-accent uppercase tracking-wider mt-1">Signature Infusion</p>
+                        </div>
+                        <span class="text-xl font-medium" style=""></span>
+                    </div>
+                    <p class="text-sm text-slate-50 mb-4">Activated charcoal, smoked agave, Nigerian hibiscus, gold dust.</p>
+                    <div class="w-full bg-white/10 h-0.5 rounded-full overflow-hidden">
+                        <div class="w-2/3 bg-accent h-full"></div>
+                    </div>
+                    <div class="flex justify-between text-[10px] uppercase tracking-wider text-gray-500 mt-2">
+                        <span>Potency</span>
+                        <span class="">High</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Sticky Category Strip -->
+    <div class="sticky top-[80px] z-40 bg-[#081c05]/95 backdrop-blur-sm border-y border-white/5 py-4 mb-16">
+        <div class="max-w-7xl mx-auto px-4 overflow-x-auto no-scrollbar">
+            <div class="flex items-center gap-8 min-w-max">
+                <a href="#" class="text-accent font-medium text-sm uppercase tracking-widest border-b border-accent pb-1">Signatures</a>
+                <a href="#" class="hover:text-white transition-colors uppercase text-sm font-medium text-gray-500 tracking-widest">Highballs</a>
+                <a href="#" class="text-gray-500 hover:text-white transition-colors font-medium text-sm uppercase tracking-widest">Zero Proof</a>
+                <a href="#" class="text-gray-500 hover:text-white transition-colors font-medium text-sm uppercase tracking-widest">Botanicals</a>
+                <a href="#" class="text-accent uppercase border-accent text-sm font-medium tracking-widest border-b pb-1">Afrique</a>
+                <a href="#" class="hover:text-white transition-colors uppercase text-sm font-medium text-gray-500 tracking-widest">Apéritifs</a>
+                <a href="#" class="text-gray-500 hover:text-white transition-colors font-medium text-sm uppercase tracking-widest">Digestifs</a>
+                <a href="#" class="text-gray-500 hover:text-white transition-colors font-medium text-sm uppercase tracking-widest">Originals</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scrolling Cocktail Marquee (Referenced Component Adapted) -->
+    <section class="sm:px-6 lg:px-8 sm:pb-24 max-w-7xl mr-auto ml-auto pt-10 pr-4 pb-16 pl-4 relative">
+        <div class="mx-auto max-w-4xl text-center mb-16">
+            <span class="inline-flex items-center gap-2 rounded-full border border-accent/30 bg-accent/10 px-3 sm:px-4 py-1.5 sm:py-2 text-xs font-medium text-accent font-sans uppercase tracking-wider">Les Archives</span>
+            <h2 class="mt-4 sm:mt-6 text-3xl sm:text-4xl lg:text-5xl tracking-tighter text-white">
+                Une Symphonie de <span class="italic font-serif text-accent">Saveurs</span>
+            </h2>
+            <p class="mt-3 sm:mt-4 text-sm sm:text-base font-light text-slate-300/80 max-w-xl mx-auto">
+                Découvrez une collection dynamique d'infusions, alliant la sagesse des recettes anciennes à l'artisanat contemporain du
+                cocktail.
+            </p>
+        </div>
+      
+        <div class="relative mt-8 sm:mt-12">
+            <div class="mx-auto max-w-[90rem] overflow-hidden" style="mask-image: linear-gradient(to right, transparent, black 12%, black 88%, transparent); -webkit-mask-image: linear-gradient(to right, transparent, black 12%, black 88%, transparent);">
+                <div class="flex w-max" style="animation: marquee-left 60s linear infinite; will-change: transform;">
+                    <!-- Set 1 -->
+                    <div class="grid grid-cols-4 md:grid-cols-6 gap-4 sm:gap-6 flex-shrink-0 pr-4 sm:pr-6">
+                        <div class="aspect-[3/4] rounded-2xl overflow-hidden ring-1 ring-white/10 bg-white/5 relative group w-32 sm:w-48">
+                            <img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 grayscale group-hover:grayscale-0" src="https://raw.githubusercontent.com/dassidaniele1-beep/mixology-assets/1e503e5d3e054e35a5432ec712a963a464b2e7ed/IMG_1509.jpg" alt="Futuristic Cocktail">" class="w-full h-full object-cover object-center opacity-90"&gt;" alt="Cocktail"&gt;
+                        </div>
+                        <div class="aspect-[3/4] rounded-2xl overflow-hidden ring-1 ring-white/10 bg-white/5 relative group w-32 sm:w-48 mt-8">
+                            <img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 grayscale group-hover:grayscale-0" src="https://raw.githubusercontent.com/dassidaniele1-beep/mixology-assets/5bdb160f47b474b8ad592362b62a3717d3ee1d13/LAFL9717.JPEG" alt="Cocktail">
+                        </div>
+                        <div class="aspect-[3/4] rounded-2xl overflow-hidden ring-1 ring-white/10 bg-white/5 relative group w-32 sm:w-48">
+                            <img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 grayscale group-hover:grayscale-0" src="https://raw.githubusercontent.com/dassidaniele1-beep/mixology-assets/bfea8633e146fdf8499c6527000b922aa7a03949/IMG_1511.jpg" alt="Cocktail">
+                        </div>
+                        <div class="aspect-[3/4] rounded-2xl overflow-hidden ring-1 ring-white/10 bg-white/5 relative group w-32 sm:w-48 mt-8" style="outline: #c14d00 solid 1px; outline-offset: 4px;">
+                            <img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="https://images.unsplash.com/photo-1470337458703-46ad1756a187?auto=format&amp;fit=crop&amp;w=400&amp;q=80" alt="Cocktail">
+                        </div>
+                        <div class="aspect-[3/4] rounded-2xl overflow-hidden ring-1 ring-white/10 bg-white/5 relative group w-32 sm:w-48">
+                            <img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 grayscale group-hover:grayscale-0" src="https://raw.githubusercontent.com/dassidaniele1-beep/mixology-assets/bfea8633e146fdf8499c6527000b922aa7a03949/IMG_1512.jpg" alt="Cocktail">
+                        </div>
+                        <div class="aspect-[3/4] rounded-2xl overflow-hidden ring-1 ring-white/10 bg-white/5 relative group w-32 sm:w-48 mt-8">
+                            <img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 grayscale group-hover:grayscale-0" src="https://raw.githubusercontent.com/dassidaniele1-beep/mixology-assets/bfea8633e146fdf8499c6527000b922aa7a03949/IMG_1514.jpg" alt="Cocktail">
+                        </div>
+                    </div>
+                    <!-- Duplicate Set for Infinity Loop -->
+                    <div class="grid grid-cols-4 md:grid-cols-6 gap-4 sm:gap-6 flex-shrink-0 pr-4 sm:pr-6">
+                        <div class="aspect-[3/4] rounded-2xl overflow-hidden ring-1 ring-white/10 bg-white/5 relative group w-32 sm:w-48">
+                            <img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 grayscale group-hover:grayscale-0" src="https://raw.githubusercontent.com/dassidaniele1-beep/mixology-assets/5bdb160f47b474b8ad592362b62a3717d3ee1d13/LAFL9580.JPEG" alt="Cocktail">
+                        </div>
+                        <div class="aspect-[3/4] rounded-2xl overflow-hidden ring-1 ring-white/10 bg-white/5 relative group w-32 sm:w-48 mt-8">
+                            <img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 grayscale group-hover:grayscale-0" src="https://images.unsplash.com/photo-1510626176961-4b57d4fbad03?auto=format&amp;fit=crop&amp;w=400&amp;q=80" alt="Cocktail">
+                        </div>
+                        <div class="aspect-[3/4] rounded-2xl overflow-hidden ring-1 ring-white/10 bg-white/5 relative group w-32 sm:w-48">
+                            <img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 grayscale group-hover:grayscale-0" src="https://images.unsplash.com/photo-1556679343-c7306c1976bc?auto=format&amp;fit=crop&amp;w=400&amp;q=80" alt="Cocktail">
+                        </div>
+                        <div class="aspect-[3/4] rounded-2xl overflow-hidden ring-1 ring-white/10 bg-white/5 relative group w-32 sm:w-48 mt-8" style="outline: #c14d00 solid 1px; outline-offset: 4px;">
+                            <img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="https://images.unsplash.com/photo-1470337458703-46ad1756a187?auto=format&amp;fit=crop&amp;w=400&amp;q=80" alt="Cocktail">
+                        </div>
+                        <div class="aspect-[3/4] rounded-2xl overflow-hidden ring-1 ring-white/10 bg-white/5 relative group w-32 sm:w-48">
+                            <img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 grayscale group-hover:grayscale-0" src="https://images.unsplash.com/photo-1544145945-f90425340c7e?auto=format&amp;fit=crop&amp;w=400&amp;q=80" alt="Cocktail">
+                        </div>
+                        <div class="aspect-[3/4] rounded-2xl overflow-hidden ring-1 ring-white/10 bg-white/5 relative group w-32 sm:w-48 mt-8">
+                            <img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 grayscale group-hover:grayscale-0" src="https://images.unsplash.com/photo-1572116469696-31de0f17cc34?auto=format&amp;fit=crop&amp;w=400&amp;q=80" alt="Cocktail">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Asymmetrical Mosaic Gallery (Menu Highlights) -->
+    <section class="lg:px-12 max-w-7xl mr-auto ml-auto pt-24 pr-6 pb-24 pl-6" id="collection">
+        <div class="flex mb-16 items-end justify-between">
+            <div class="">
+                <h3 class="lg:text-5xl text-4xl font-semibold tracking-tighter mb-4">Mon Histoire</h3>
+                <p class="text-gray-400 max-w-md">Our menu is a living organism, evolving with the seasons and the rhythm of the continent.</p>
+            </div>
+            <a href="#" class="hidden md:flex items-center gap-2 text-accent hover:text-white transition-colors uppercase text-sm font-semibold tracking-wide">
+                View Full Menu <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" data-lucide="arrow-right" class="lucide lucide-arrow-right w-4 h-4"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+            </a>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-6 auto-rows-[300px]">
+            <!-- Large Feature -->
+            <div class="md:col-span-2 md:row-span-2 relative rounded-3xl overflow-hidden group">
+                <img src="https://raw.githubusercontent.com/dassidaniele1-beep/mixology-assets/c4489c533eb7e035ed7b10a45b1747d59d61f81d/harry.png" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" alt="Harry Mandela">
+                <div class="bg-gradient-to-t from-black/80 via-transparent to-transparent absolute top-0 right-0 bottom-0 left-0"></div>
+                <div class="absolute bottom-0 left-0 p-8">
+                    <h4 class="text-3xl font-semibold tracking-tight">Harry Mandela</h4>
+                    <p class="text-sm text-gray-300 mt-2 line-clamp-2">assionné de mixologie.
+                    
+                    Découvrez l'univers qui m'anime</p>
+                </div>
+            </div>
+
+            <!-- Standard Card -->
+            <div class="glass-card glass rounded-3xl p-6 relative group overflow-hidden flex flex-col justify-between">
+                <div class="absolute -right-4 -top-4 w-24 h-24 bg-accent/20 rounded-full blur-2xl group-hover:bg-accent/30 transition-all"></div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" data-lucide="droplet" class="lucide lucide-droplet w-8 h-8 text-accent mb-4"><path d="M12 22a7 7 0 0 0 7-7c0-2-1-3.9-3-5.5s-3.5-4-4-6.5c-.5 2.5-2 4.9-4 6.5C6 11.1 5 13 5 15a7 7 0 0 0 7 7z"></path></svg>
+                <div class="">
+                    <h4 class="text-xl font-semibold tracking-tight mb-2">Mon monde créatif !</h4>
+                    <p class="text-xs text-gray-400">
+                    Ce que vous voyez est une plongée immersive dans mes passions, mes inspirations et une petite mise en bouche de
+                    mes réalisations.</p>
+                </div>
+                <div class="mt-4 flex justify-between items-center">
+                
+                    <button class="w-8 h-8 rounded-full bg-white/10 flex items-center justify-center hover:bg-accent hover:text-white transition-colors">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" data-lucide="plus" class="lucide lucide-plus w-4 h-4"><path d="M5 12h14"></path><path d="M12 5v14"></path></svg>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Dark Card -->
+       <div class="glass-card glass rounded-3xl p-6 relative group overflow-hidden flex flex-col justify-between">
+                <div class="absolute -right-4 -top-4 w-24 h-24 bg-accent/20 rounded-full blur-2xl group-hover:bg-accent/30 transition-all"></div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" data-lucide="droplet" class="lucide lucide-droplet w-8 h-8 text-accent mb-4"><path d="M12 22a7 7 0 0 0 7-7c0-2-1-3.9-3-5.5s-3.5-4-4-6.5c-.5 2.5-2 4.9-4 6.5C6 11.1 5 13 5 15a7 7 0 0 0 7 7z"></path></svg>
+                <div class="">
+                    <img src="https://raw.githubusercontent.com/dassidaniele1-beep/mixology-assets/958c8b56c3e13360b5b6c4716ecae522d7b14932/COCKTAIL%201.png" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" alt="Harry Mandela">
+                </div>
+                <div class="mt-4 flex justify-between items-center">
+                
+                    <button class="w-8 h-8 rounded-full bg-white/10 flex items-center justify-center hover:bg-accent hover:text-white transition-colors">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" data-lucide="plus" class="lucide lucide-plus w-4 h-4"><path d="M5 12h14"></path><path d="M12 5v14"></path></svg>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Wide Text Card -->
+            <div class="md:col-span-2 glass-card glass flex flex-col md:flex-row gap-8 group rounded-3xl pt-8 pr-8 pb-8 pl-8 gap-x-8 gap-y-8 items-center">
+                <div class="flex-1 space-y-4">
+                    <h4 class="text-2xl font-semibold tracking-tight">Mes recettes</h4>
+                    <p class="leading-relaxed text-sm text-gray-400">Je repousse les frontières du goût en puisant mon inspiration là où la plupart n'oseraient pas regarder : dans les fusions culinaires impensables des terroirs africains.</p>
+                    <a href="/#" class="inline-flex items-center gap-2 text-accent uppercase group-hover:translate-x-1 transition-transform text-sm font-semibold tracking-wide">
+                        Book Experience <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" data-lucide="arrow-right" class="lucide lucide-arrow-right w-4 h-4"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+                    </a>
+                </div>
+                <div class="w-full md:w-1/3 aspect-square rounded-2xl overflow-hidden relative">
+                    <img src="https://hoirqrkdgbmvpwutwuwj.supabase.co/storage/v1/object/public/assets/assets/f15cd641-8775-4d2e-a3f3-00da63150b59_800w.jpg" class="w-full h-full object-cover absolute top-0 right-0 bottom-0 left-0" alt="Mixologist">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-24 bg-[#0a2107]">
+        <div class="max-w-7xl mx-auto px-6 lg:px-12">
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Service 1 -->
+                <div class="group">
+                    <div class="w-12 h-12 bg-white/5 rounded-xl flex items-center justify-center mb-6 group-hover:bg-accent transition-colors duration-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" data-lucide="glass-water" class="lucide lucide-glass-water w-6 h-6 text-white"><path d="M5.116 4.104A1 1 0 0 1 6.11 3h11.78a1 1 0 0 1 .994 1.105L17.19 20.21A2 2 0 0 1 15.2 22H8.8a2 2 0 0 1-2-1.79z"></path><path d="M6 12a5 5 0 0 1 6 0 5 5 0 0 0 6 0"></path></svg>
+                    </div>
+                    <h3 class="text-2xl font-semibold tracking-tight mb-3">Événements Privés</h3>
+                    <p class="leading-relaxed text-sm text-gray-400 mb-6">Transformez votre rassemblement avec une installation de bar sur mesure et un menu élaboré pour correspondre à l'aura de votre événement.</p>
+                    <div class="h-px w-full bg-white/10 group-hover:bg-accent/50 transition-colors"></div>
+                </div>
+                <!-- Service 2 -->
+                <div class="group">
+                    <div class="w-12 h-12 bg-white/5 rounded-xl flex items-center justify-center mb-6 group-hover:bg-accent transition-colors duration-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" data-lucide="flask-conical" class="lucide lucide-flask-conical w-6 h-6 text-white"><path d="M14 2v6a2 2 0 0 0 .245.96l5.51 10.08A2 2 0 0 1 18 22H6a2 2 0 0 1-1.755-2.96l5.51-10.08A2 2 0 0 0 10 8V2"></path><path d="M6.453 15h11.094"></path><path d="M8.5 2h7"></path></svg>
+                    </div>
+                    <h3 class="text-2xl font-semibold mb-3 tracking-tight">Masterclasses</h3>
+                    <p class="leading-relaxed text-sm text-gray-400 mb-6">Apprenez l'art de la mixologie moléculaire. Comprenez la chimie derrière l'équilibre parfait entre le sucré, l'acide et le spiritueux.</p>
+                    <div class="h-px w-full bg-white/10 group-hover:bg-accent/50 transition-colors"></div>
+                </div>
+                <!-- Service 3 -->
+                <div class="group">
+                    <div class="w-12 h-12 bg-white/5 rounded-xl flex items-center justify-center mb-6 group-hover:bg-accent transition-colors duration-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" data-lucide="gem" class="lucide lucide-gem w-6 h-6 text-white"><path d="M10.5 3 8 9l4 13 4-13-2.5-6"></path><path d="M17 3a2 2 0 0 1 1.6.8l3 4a2 2 0 0 1 .013 2.382l-7.99 10.986a2 2 0 0 1-3.247 0l-7.99-10.986A2 2 0 0 1 2.4 7.8l2.998-3.997A2 2 0 0 1 7 3z"></path><path d="M2 9h20"></path></svg>
+                    </div>
+                    <h3 class="text-2xl font-semibold tracking-tight mb-3">Consulting</h3>
+                    <p class="leading-relaxed text-sm text-gray-400 mb-6">Développement de menus et conception d'ergonomie de bar pour les établissements haut de gamme cherchant à élever leur programme de boissons.</p>
+                    <div class="h-px w-full bg-white/10 group-hover:bg-accent/50 transition-colors"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+ 
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-24 px-6 md:px-12 lg:px-24 max-w-7xl mx-auto">
+        <div class="glass rounded-[3rem] p-8 md:p-16 relative overflow-hidden">
+            <!-- Decorative blob -->
+            <div class="absolute top-0 right-0 w-64 h-64 bg-accent opacity-20 rounded-full blur-[80px] translate-x-1/3 -translate-y-1/3">
+            </div>
+    
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 relative z-10">
+                <div class="">
+                    <span class="text-accent text-xs font-semibold tracking-[0.2em] uppercase mb-4 block">Contactez-moi</span>
+                    <h2 class="text-4xl md:text-5xl font-medium tracking-tight mb-6">Créons Quelque Chose <br>d'Unique</h2>
+                    <p class="text-white/60 font-light mb-8">Pour des réservations, événements privés, ou simplement pour
+                        discuter.</p>
+    
+                    <div class="space-y-6">
+                        <div class="flex items-center gap-4">
+                            <div class="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-accent">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0">
+                                    </path>
+                                    <circle cx="12" cy="10" r="3"></circle>
+                                </svg>
+                            </div>
+                            <div>
+                                <p class="text-sm font-medium">Paris, France</p>
+                                <p class="text-xs text-white/50">Disponible partout</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center gap-4">
+                            <div class="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-accent">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"></path>
+                                    <rect x="2" y="4" width="20" height="16" rx="2"></rect>
+                                </svg>
+                            </div>
+                            <div>
+                                <p class="text-sm font-medium">hello@volatilmixology.com</p>
+                                <p class="text-xs text-white/50">Réponse sous 24h</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <form class="space-y-6">
+                    <div class="grid grid-cols-2 gap-6">
+                        <div class="space-y-2">
+                            <label class="text-xs font-medium uppercase tracking-wider text-white/70">Nom</label>
+                            <input type="text" class="w-full bg-transparent border-b border-white/20 py-3 text-white focus:outline-none focus:border-accent transition-colors" placeholder="Votre nom">
+                        </div>
+                        <div class="space-y-2">
+                            <label class="text-xs font-medium uppercase tracking-wider text-white/70">Email</label>
+                            <input type="email" class="w-full bg-transparent border-b border-white/20 py-3 text-white focus:outline-none focus:border-accent transition-colors" placeholder="votre@email.com">
+                        </div>
+                    </div>
+                    <div class="space-y-2">
+                        <label class="text-xs font-medium uppercase tracking-wider text-white/70">Intérêt</label>
+                        <div class="flex flex-wrap gap-3 pt-2">
+                            <label class="cursor-pointer">
+                                    <input type="radio" name="interest" class="peer hidden">
+                                    <span class="px-4 py-2 rounded-full border border-white/10 text-sm font-light text-white/60 peer-checked:bg-accent peer-checked:text-white peer-checked:border-accent hover:border-white/30 transition-all">
+                                        Réservation
+                                    </span>
+                                </label>
+                            <label class="cursor-pointer">
+                                    <input type="radio" name="interest" class="peer hidden">
+                                    <span class="px-4 py-2 rounded-full border border-white/10 text-sm font-light text-white/60 peer-checked:bg-accent peer-checked:text-white peer-checked:border-accent hover:border-white/30 transition-all">
+                                        Événement
+                                    </span>
+                                </label>
+                            <label class="cursor-pointer">
+                                    <input type="radio" name="interest" class="peer hidden">
+                                    <span class="peer-checked:bg-accent peer-checked:text-white peer-checked:border-accent hover:border-white/30 transition-all text-sm font-light text-white/60 border-white/10 border rounded-full pt-2 pr-4 pb-2 pl-4">Collab</span>
+                                </label>
+                            <label class="cursor-pointer">
+                                    <input type="radio" name="interest" class="peer hidden">
+                                    <span class="px-4 py-2 rounded-full border border-white/10 text-sm font-light text-white/60 peer-checked:bg-accent peer-checked:text-white peer-checked:border-accent hover:border-white/30 transition-all">
+                                        Autre
+                                    </span>
+                                </label>
+                        </div>
+                    </div>
+                    <div class="space-y-2">
+                        <label class="text-xs font-medium uppercase tracking-wider text-white/70">Message</label>
+                        <textarea rows="4" class="w-full bg-transparent border-b border-white/20 py-3 text-white focus:outline-none focus:border-accent transition-colors resize-none" placeholder="Parlez-moi de vos besoins..."></textarea>
+                    </div>
+                    <button type="button" class="w-full py-4 bg-white text-[#081c05] rounded-xl font-semibold tracking-widest uppercase hover:bg-accent hover:text-white transition-colors duration-300">
+                            Envoyer le Message
+                        </button>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="border-t border-white/10 pt-16 pb-8 px-6 bg-[#051403]">
+
+    <footer class="border-t border-white/10 pt-16 pb-8 px-6 bg-[#051403]">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8">
+            <a href="#" class="flex items-center gap-3">
+                <img src="https://raw.githubusercontent.com/dassidaniele1-beep/mixology-assets/33678d1342a004cde09aeff64c6d1925ec78c323/Untitled%20design.png" alt="Afro Mixology Logo" class="h-12 w-auto rounded-lg">
+            </a>
+            <a href="#" class="display-font uppercase text-2xl font-extrabold tracking-tighter">VOLATIL</a>
+            <div class="flex gap-6">
+                <a href="https://www.instagram.com/volatilmixology" target="_blank" class="text-gray-400 hover:text-accent transition-colors"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" data-lucide="instagram" class="lucide lucide-instagram w-5 h-5"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line></svg></a>
+<a href="https://www.linkedin.com/in/harry-ngouonpe/?locale=en_US" target="_blank" class="text-gray-400 hover:text-accent transition-colors"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" data-lucide="linkedin" class="lucide lucide-linkedin w-5 h-5"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect width="4" height="12" x="2" y="9"></rect><circle cx="4" cy="4" r="2"></circle></svg></a>
+            </div>
+        </div>
+        <div class="text-center mt-12 text-xs text-gray-600">
+            © 2025 Afro Mixology. All rights reserved. Drink responsibly.
+        </div>
+    </footer>
+
+    <script>
+        lucide.createIcons();
+    </script>
+
+ </footer></body></html>
